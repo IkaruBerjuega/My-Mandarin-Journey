@@ -1,0 +1,127 @@
+.head{
+    position:absolute;
+    margin-left:150px;
+    margin-top:150px;
+}
+
+.head h1{
+ color:lightgrey;
+ font-family: Roboto Mono;
+ font-size:6rem;
+ margin:0;
+ padding:0;
+}
+
+
+.head p{
+    color:lightgrey;
+    font-family: Roboto;
+    letter-spacing:2px;
+    font-size:1.5rem;
+    margin:0;
+}
+
+
+.contactLogos{
+    z-index:1;
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    align-items: flex-end;
+    margin-top:175px;
+    gap:10px;
+}
+
+.contactLogos div{
+    background-color: black;
+    border-radius: 50%;
+    width:50px;;
+    height:50px;
+    text-align: center;
+    margin-right:20px
+    
+}
+
+.contactLogos img{
+    width:60%;
+    margin-top:8px;
+}
+
+
+
+
+
+.aboutMeContainer{
+    position:absolute;
+    width:80%;
+    margin-top: 700px;
+    margin-left:150px;
+}
+
+.containText{
+    position:relative;
+    width:100%;
+    text-align: center;
+    border-bottom:2px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+
+.containText span{
+    font-family: Roboto Mono;
+    color:lightgrey;
+    letter-spacing: 5px;
+    font-size:2.5rem;
+}
+
+.containBgAndSkills{
+    margin-top:50px;
+}
+
+.generalBackground>span, .education>span, .skills>span{
+    font-size:1.5rem;
+}
+
+.generalBackground, .education, .skills{
+    position:relative;
+    color:lightgrey;
+    background-color: #282b2a;;
+    font-family: Roboto Mono;
+    width:50%;
+    padding:50px;
+    left:21%;
+    border-radius: 20px;;
+    margin-top:50px;
+}
+
+.generalBackground p, .education li, .skills li{
+    font-family: Roboto;
+    letter-spacing:1px;
+    font-size: 20px;
+}
+
+
+.education li, .skills li{
+    margin-top:10px;
+    font-size:18px;
+    text-align:left;
+}
+
+.education ul{
+    margin-top:50px;
+}
+
+.item{
+    width:100%;
+}
+
+.gbContent{
+    margin-top:30px;
+}
+
+
+
+
+
+
