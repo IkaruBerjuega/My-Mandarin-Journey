@@ -69,7 +69,7 @@ a{
 
 .content{
   opacity: 0;
-  animation: fadeIn 5s ease-in-out forwards; /* Apply the animation */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the animation */
   animation-delay: .5s;
 }
 
@@ -388,6 +388,7 @@ a{
   background-color: transparent;
   border:none;
   padding: 10px;
+  cursor: pointer;
 }
 
 .loadUnload{
@@ -431,7 +432,7 @@ footer p{
   height: 10%;
 }
 
-.card .button a {
+.card a {
   height: 50%;
   margin-right: 25px;
   background-color: rgb(17, 74, 127);
@@ -439,11 +440,13 @@ footer p{
   border-radius: 50%;
   padding: 10px;
   margin-right:20px;
+  cursor:pointer;
 }
 
-.card .button a:hover{
+.card a:hover{
   background-color: rgb(24, 101, 173);
   margin-right: 15px;
+  
 }
 
 .card .button img{
