@@ -309,7 +309,7 @@ a{
 .container-three{
   display: flex;
   flex-direction:column;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   gap:20px;
   height: 175vh;
