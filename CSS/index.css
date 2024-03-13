@@ -342,9 +342,6 @@ a{
   gap:30px;
 }
 
-.embed2, .embed3{
-  display: none;
-}
 
 .card{
   width: 400px;
@@ -456,7 +453,6 @@ footer p{
 .embed-three{
   width: 1260px;
   height: 400px;
-  display: none;
   justify-content:flex-start;
 }
 
